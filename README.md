@@ -3,6 +3,14 @@
 This repository contains a barebones iOS application that can authenticate with the [Spotify Web API](https://developer.spotify.com/documentation/web-api/). It serves as an
 open-ended starting point for CareLineLive technical tests.
 
+## Task Requirements
+
+As mentioned, this repository is barebones and should be used so you can avoid writing boilerplate networking code. The
+following would be expected to be implemented:
+
+- Display details of the playlist; including name, description, and cover image.
+- Display a list (or grid) of tracks in the playlist.
+
 ## Suggestions
 
 In addition to the above, we'd like to see what you're capable of! You may wish to use the following ideas as a starting
@@ -37,14 +45,6 @@ The project has a number of packages imported via Swift Package Manager ready fo
 - [Realm](https://github.com/realm/realm-swift)
 - [RxAlamofire](https://github.com/RxSwiftCommunity/RxAlamofire)
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
-
-## Requirements
-
-As mentioned, this repository is barebones and should be used so you can avoid writing boilerplate networking code. The
-following would be expected to be implemented:
-
-- Display details of the playlist; including name, description, and cover image.
-- Display a list (or grid) of tracks in the playlist.
 
 ## Spotify API Reference
 
