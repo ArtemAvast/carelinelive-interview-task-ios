@@ -13,18 +13,13 @@
 		1DA1DAC8D0AFA99D693F6103 /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA1DB71516545CBDB064DDF /* RealmProvider.swift */; };
 		1DA1DCBFFA07100A5246531D /* SpotifyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA1D87128A167C889BC813E /* SpotifyApi.swift */; };
 		1DA1DF8D27C77EBA5B9A4F08 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA1DE45D33BB5DA124ACFEB /* Constants.swift */; };
+		5B6D8986ED7A5D16D09372A0 /* Pods_Task_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2506AE74D92D7A3849D5C3DA /* Pods_Task_iOS.framework */; };
 		76EF1D202853920700D5E2FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF1D1F2853920700D5E2FB /* AppDelegate.swift */; };
 		76EF1D222853920700D5E2FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF1D212853920700D5E2FB /* SceneDelegate.swift */; };
 		76EF1D242853920700D5E2FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF1D232853920700D5E2FB /* ViewController.swift */; };
 		76EF1D272853920700D5E2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EF1D252853920700D5E2FB /* Main.storyboard */; };
 		76EF1D292853920800D5E2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EF1D282853920800D5E2FB /* Assets.xcassets */; };
 		76EF1D2C2853920800D5E2FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EF1D2A2853920800D5E2FB /* LaunchScreen.storyboard */; };
-		76EF1D40285392DC00D5E2FB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 76EF1D3F285392DC00D5E2FB /* Realm */; };
-		76EF1D42285392DC00D5E2FB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 76EF1D41285392DC00D5E2FB /* RealmSwift */; };
-		76EF1D452853936D00D5E2FB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 76EF1D442853936D00D5E2FB /* Alamofire */; };
-		76EF1D482853948E00D5E2FB /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 76EF1D472853948E00D5E2FB /* RxBlocking */; };
-		76EF1D4A2853948E00D5E2FB /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 76EF1D492853948E00D5E2FB /* RxSwift */; };
-		76EF1D4F2853954E00D5E2FB /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 76EF1D4E2853954E00D5E2FB /* RxAlamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +29,7 @@
 		1DA1DB71516545CBDB064DDF /* RealmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
 		1DA1DE45D33BB5DA124ACFEB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1DA1DF36C8CA1261F3560574 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		2506AE74D92D7A3849D5C3DA /* Pods_Task_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EF1D1C2853920700D5E2FB /* Task iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EF1D1F2853920700D5E2FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76EF1D212853920700D5E2FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +38,8 @@
 		76EF1D282853920800D5E2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76EF1D2B2853920800D5E2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76EF1D2D2853920800D5E2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E669A47153879D31252E5D /* Pods-Task iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task iOS.debug.xcconfig"; path = "Target Support Files/Pods-Task iOS/Pods-Task iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FAA1805B09DF607B4056D2 /* Pods-Task iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task iOS.release.xcconfig"; path = "Target Support Files/Pods-Task iOS/Pods-Task iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EF1D40285392DC00D5E2FB /* Realm in Frameworks */,
-				76EF1D482853948E00D5E2FB /* RxBlocking in Frameworks */,
-				76EF1D4A2853948E00D5E2FB /* RxSwift in Frameworks */,
-				76EF1D4F2853954E00D5E2FB /* RxAlamofire in Frameworks */,
-				76EF1D452853936D00D5E2FB /* Alamofire in Frameworks */,
-				76EF1D42285392DC00D5E2FB /* RealmSwift in Frameworks */,
+				5B6D8986ED7A5D16D09372A0 /* Pods_Task_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +71,16 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		41F8589DA892B1025EEF1597 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79E669A47153879D31252E5D /* Pods-Task iOS.debug.xcconfig */,
+				F3FAA1805B09DF607B4056D2 /* Pods-Task iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		76EF1D132853920700D5E2FB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +88,8 @@
 				76EF1D1D2853920700D5E2FB /* Products */,
 				1DA1DF36C8CA1261F3560574 /* .gitignore */,
 				1DA1D6AE6C08C390665693F9 /* README.md */,
+				41F8589DA892B1025EEF1597 /* Pods */,
+				A3975483E3C119BB30D4C4A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +118,14 @@
 			path = "Task iOS";
 			sourceTree = "<group>";
 		};
+		A3975483E3C119BB30D4C4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2506AE74D92D7A3849D5C3DA /* Pods_Task_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,23 +133,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76EF1D302853920800D5E2FB /* Build configuration list for PBXNativeTarget "Task iOS" */;
 			buildPhases = (
+				42072A270C2DCBE0F4237BE6 /* [CP] Check Pods Manifest.lock */,
 				76EF1D182853920700D5E2FB /* Sources */,
 				76EF1D192853920700D5E2FB /* Frameworks */,
 				76EF1D1A2853920700D5E2FB /* Resources */,
+				07483DEC98402940E6E4A91A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Task iOS";
-			packageProductDependencies = (
-				76EF1D3F285392DC00D5E2FB /* Realm */,
-				76EF1D41285392DC00D5E2FB /* RealmSwift */,
-				76EF1D442853936D00D5E2FB /* Alamofire */,
-				76EF1D472853948E00D5E2FB /* RxBlocking */,
-				76EF1D492853948E00D5E2FB /* RxSwift */,
-				76EF1D4E2853954E00D5E2FB /* RxAlamofire */,
-			);
 			productName = "Task iOS";
 			productReference = 76EF1D1C2853920700D5E2FB /* Task iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -165,12 +172,6 @@
 				Base,
 			);
 			mainGroup = 76EF1D132853920700D5E2FB;
-			packageReferences = (
-				76EF1D3E285392DC00D5E2FB /* XCRemoteSwiftPackageReference "realm-swift.git" */,
-				76EF1D432853936D00D5E2FB /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				76EF1D462853948E00D5E2FB /* XCRemoteSwiftPackageReference "RxSwift.git" */,
-				76EF1D4D2853954D00D5E2FB /* XCRemoteSwiftPackageReference "RxAlamofire.git" */,
-			);
 			productRefGroup = 76EF1D1D2853920700D5E2FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,6 +194,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07483DEC98402940E6E4A91A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task iOS/Pods-Task iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Task iOS/Pods-Task iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Task iOS/Pods-Task iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42072A270C2DCBE0F4237BE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Task iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76EF1D182853920700D5E2FB /* Sources */ = {
@@ -348,6 +391,7 @@
 		};
 		76EF1D312853920800D5E2FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E669A47153879D31252E5D /* Pods-Task iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -376,6 +420,7 @@
 		};
 		76EF1D322853920800D5E2FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FAA1805B09DF607B4056D2 /* Pods-Task iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,74 +469,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		76EF1D3E285392DC00D5E2FB /* XCRemoteSwiftPackageReference "realm-swift.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.19.0;
-			};
-		};
-		76EF1D432853936D00D5E2FB /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.1;
-			};
-		};
-		76EF1D462853948E00D5E2FB /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
-		76EF1D4D2853954D00D5E2FB /* XCRemoteSwiftPackageReference "RxAlamofire.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		76EF1D3F285392DC00D5E2FB /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76EF1D3E285392DC00D5E2FB /* XCRemoteSwiftPackageReference "realm-swift.git" */;
-			productName = Realm;
-		};
-		76EF1D41285392DC00D5E2FB /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76EF1D3E285392DC00D5E2FB /* XCRemoteSwiftPackageReference "realm-swift.git" */;
-			productName = RealmSwift;
-		};
-		76EF1D442853936D00D5E2FB /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76EF1D432853936D00D5E2FB /* XCRemoteSwiftPackageReference "Alamofire.git" */;
-			productName = Alamofire;
-		};
-		76EF1D472853948E00D5E2FB /* RxBlocking */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76EF1D462853948E00D5E2FB /* XCRemoteSwiftPackageReference "RxSwift.git" */;
-			productName = RxBlocking;
-		};
-		76EF1D492853948E00D5E2FB /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76EF1D462853948E00D5E2FB /* XCRemoteSwiftPackageReference "RxSwift.git" */;
-			productName = RxSwift;
-		};
-		76EF1D4E2853954E00D5E2FB /* RxAlamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 76EF1D4D2853954D00D5E2FB /* XCRemoteSwiftPackageReference "RxAlamofire.git" */;
-			productName = RxAlamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 76EF1D142853920700D5E2FB /* Project object */;
 }

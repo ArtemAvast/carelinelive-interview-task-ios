@@ -90,3 +90,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 .idea/
+
+# Some files in the Pods directory are > 100mb
+Pods/
