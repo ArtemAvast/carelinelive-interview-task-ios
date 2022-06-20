@@ -25,10 +25,8 @@ struct SpotifyPlaylist: Decodable {
 
 struct SpotifyPlaylistTracks: Decodable {
     let href: String
-    let limit: Int
-    let offset: Int
     let total: Int
-    let items: Array<SpotifyTracksItem>
+    let items: Array<SpotifyTracksItem>?
 }
 
 struct SpotifyTracksItem: Decodable {
@@ -75,4 +73,19 @@ struct SpotifyImage: Decodable {
     let width: Int?
     let height: Int?
     let url: String
+}
+
+struct SpotifyFeaturedPlaylistsResponseBody: Decodable {
+    let playlists: SpotifyFeaturedPlaylistsResponseHeader
+}
+
+struct SpotifyFeaturedPlaylistsResponseHeader: Decodable {
+    let href: String
+    let items: [SpotifyPlaylist]
+}
+
+struct SpotifyAudioFeatures: Decodable {
+    let danceability: Float
+    let energy: Float
+    let liveness: Float
 }
